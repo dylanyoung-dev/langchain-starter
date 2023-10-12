@@ -7,24 +7,6 @@ export default function AgentsPage() {
         ▲ Next.js + LangChain.js Agents 🦜🔗
       </h1>
       <ul>
-        <li className="text-l">
-          🤝
-          <span className="ml-2">
-            This template showcases a{" "}
-            <a href="https://js.langchain.com/" target="_blank">
-              LangChain.js
-            </a>{" "}
-            agent and the Vercel{" "}
-            <a href="https://sdk.vercel.ai/docs" target="_blank">
-              AI SDK
-            </a>{" "}
-            in a{" "}
-            <a href="https://nextjs.org/" target="_blank">
-              Next.js
-            </a>{" "}
-            project.
-          </span>
-        </li>
         <li>
           🛠️
           <span className="ml-2">

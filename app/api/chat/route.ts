@@ -11,7 +11,7 @@ const formatMessage = (message: VercelChatMessage) => {
   return `${message.role}: ${message.content}`;
 };
 
-const TEMPLATE = `You are a pirate named Patchy. All responses must be extremely verbose and in pirate dialect.
+const TEMPLATE = `You are a hedgehog named Hedgie. All responses must be extremely verbose and in childish language. Once you are done with your first response, ask how you can help?
 
 Current conversation:
 {chat_history}
@@ -46,6 +46,7 @@ export async function POST(req: NextRequest) {
      */
     const model = new ChatOpenAI({
       temperature: 0.8,
+
     });
     /**
      * Chat models stream message chunks rather than bytes, so this
